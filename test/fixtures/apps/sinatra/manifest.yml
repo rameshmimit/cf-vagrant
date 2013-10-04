@@ -1,0 +1,8 @@
+---
+applications:
+- name: hello
+  memory: 256M
+  instances: 1
+  host: hello
+  domain: 192.168.12.34.xip.io
+  path: .
