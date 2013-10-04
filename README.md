@@ -42,12 +42,6 @@ git clone https://github.com/Altoros/cf-vagrant-installer.git
 cd cf-vagrant-installer
 ```
 
-> want to try a particular version?
-
-```
-git checkout tags/v1.0.0
-```
-
 
 ### Initialize submodules
 
@@ -62,16 +56,6 @@ Initialize the Vagrant VM using the default VirtualBox provider.
 
 ```
 vagrant up
-```
-
-#### Using VMware Fusion / Workstation
-Alternatively, you can use a different Vagrant provider such as the VMware Fusion or VMware Workstation provider. See the [Vagrant documentation](http://docs.vagrantup.com/v2/providers/index.html) for information on installing and using providers.
-
-> **Stop!!** If you are going to use the VMware provider, you **must** follow the instructions [here] (vmware/VMware-Instructions.md) first, or the next steps will result in an environment that will not work.
-
-```
-Fusion: vagrant up --provider=vmware_fusion
-Workstation: vagrant up --provider=vmware_workstation
 ```
 
 ## Running Cloud Foundry
@@ -163,7 +147,3 @@ Now you can test any buildpacks (3rd party, or your own) with cf-vagrant-install
 ## Cloud Foundry documentation
 
 http://docs.cloudfoundry.com/
-
-## Collaborate
-
-You are welcome to contribute via [pull request](https://help.github.com/articles/using-pull-requests).
