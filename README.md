@@ -1,5 +1,8 @@
 # Overview
 
+Note: All credit goes to: https://github.com/Altoros/cf-vagrant-installer/blob/master/README.md
+I just edited it as per my needs.
+
 This project provides a mechanism to automate several tasks to be able to set up a Vagrant VM with the following V2 (NG) Cloud Foundry components:
 
 * Cloud Controller
